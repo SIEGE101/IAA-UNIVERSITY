@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  background: #f3f3f3;
+  flex-direction: column;
+  margin: 0;
+}
+
+h1 {
+  color: #4CAF50;
+  margin-top: 50px;
+}
+
+.content {
+  margin-top: 50px;
+  text-align: center;
+}
+
+a {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+}

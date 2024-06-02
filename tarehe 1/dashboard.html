@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAA University</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: #fff;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header .contact-info {
+            display: flex;
+            align-items: center;
+        }
+        .header .contact-info div {
+            margin-left: 20px;
+        }
+        .header .contact-info a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        .nav {
+            background: #000;
+        }
+        .nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        .nav ul li {
+            margin: 0 15px;
+        }
+        .nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 0;
+            display: block;
+        }
+        .banner {
+            background-image: url('./page.jpg');
+            background-size: cover;
+            background-position: center center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .banner h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .banner p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        @font-face {
+            font-family: 'Coffee Spark';
+            src: url('Coffee Spark.tff') format('truetype');
+        }
+        .coffee-spark-font {
+            font-family: 'Coffee Spark',Coffee Spark;
+        }
+        .banner .contact-btn {
+            background: #ff5a00;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 50px 20px;
+            background: #c25710;
+        }
+        .features .feature {
+            flex: 1;
+            margin: 0 15px;
+            padding: 20px;
+            background: #f0d2b5;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .features .feature h3 {
+            margin: 20px 0 10px;
+        }
+        .features .feature p {
+            color: #666;
+        }
+        .about, .courses, .testimonials {
+            padding: 50px 20px;
+            text-align: center;
+            background: #f2d8bf;
+        }
+        .about h2, .courses h2, .testimonials h2 {
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+        .about p, .courses p, .testimonials p {
+            max-width: 800px;
+            margin: 0 auto 20px;
+            color: #666;
+        }
+        .courses .course-list, .testimonials .testimonial-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .courses .course, .testimonials .testimonial {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background: #f4ac65;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .footer {
+            background: #000;
+            color: #f8f4f2;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="dashboard.html" class="coffee-spark-font">
+                    IAA UNIVERSITY
+                  </a>
+            </div>
+            <div class="contact-info">
+                <div>
+                    <a href="mailto:youremail@omail.com">IAAportal@gmail.com</a>
+                </div>
+                <div>
+                    <a href="tel:+0756565656">Call Us: +255756 565 656</a>
+                </div>
+                <div>
+                    <link rel="stylesheet" href="button.css">
+                    <button class="button-33" role="button-33" onclick="goHome()">apply now</button>
+
+                    <script>
+                        function goHome() {
+                            window.location.href = "index.html"; 
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav">
+        <ul>
+            <li><a href="dashboard.html">Home</a></li>
+            <li><a href="about.html">About</a></li> 
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+    </div>
+
+    <div class="banner">
+        <h1><strong>Institute Of Accountancy In Arusha</strong></h1>
+        <p><strong>The Institute of Accountancy Arusha (IAA) is a parastatal educational institution under the Ministry of Finance and Planning originally established in 1987 to offer training for candidates aspiring to acquire National Board of Accountants and Auditors (NBAA) certification.</strong></p>
+        <a href="contact.html" class="contact-btn">Contact Us</a>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <h3>Certified Teachers</h3>
+            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        </div>
+        <div class="feature">
+            <h3>Special Education</h3>
+            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        </div>
+        <div class="feature">
+            <h3>Book & Library</h3>
+            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        </div>
+        <div class="feature">
+            <h3>Sport Clubs</h3>
+            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        </div>
+    </div>
+
+    <div class="about">
+        <h2>About Us</h2>
+        <p>The Institute of Accountancy Arusha (IAA) aims to provide high-quality education and training in accounting, finance, and management disciplines. Our mission is to produce well-rounded professionals equipped with the skills and knowledge needed to excel in the dynamic global market.</p>
+    </div>
+
+    <div class="courses">
+        <h2>Our Courses</h2>
+        <div class="course-list">
+            <div class="course">
+                <h3>Bachelor of Accounting</h3>
+                <p>Comprehensive training in accounting principles, financial reporting, and audit practices.</p>
+            </div>
+            <div class="course">
+                <h3>Master of Business Administration</h3>
+                <p>Advanced management and leadership skills for aspiring business professionals.</p>
+            </div>
+            <div class="course">
+                <h3>Diploma in Procurement and Supply</h3>
+                <p>Specialized knowledge in procurement processes, supply chain management, and logistics.</p>
+            </div>
+            <div class="course">
+                <h3>Bachelor of Computer Science</h3>
+                <p>In-depth understanding of computer science concepts, programming, and system design.</p>
+            </div>
+            <div class="course">
+                <h3>Diploma in Computer and Information Technology</h3>
+                <p>Fundamental training in IT skills, software development, and information systems.</p>
+            </div>
+            <div class="course">
+                <h3>Bachelor of Finance</h3>
+                <p>Focused education on financial management, investment strategies, and market analysis.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial-list">
+            <div class="testimonial">
+                <p>"IAA has provided me with the skills and confidence to excel in my career. The faculty is supportive and the curriculum is up-to-date with industry standards."</p>
+                <strong>- Fredrick Mpwala</strong>
+            </div>
+            <div class="testimonial">
+                <p>"The learning environment at IAA is excellent. The courses are well-structured and the resources available to students are outstanding."</p>
+                <strong>- Junior Kakakuona</strong>
+            </div>
+            <div class="testimonial">
+                <p>"I am grateful for the opportunities IAA has provided me. The practical knowledge and hands-on experience I gained here have been invaluable."</p>
+                <strong>- Frank Mijusi</strong>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 IAA University. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
